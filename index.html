@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Milliano-Inc</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+      <div class="menu_toggle">
+          <span></span>
+      </div>
+
+      <div class="logo">
+          <p><span>MILLIANO</span>.INC</p>
+      </div>
+      <ul class="menu">
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#services">Services & Design</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="login_btn">LOGIN</button>
+  </header>
+  <!-- section Acceuil -->
+   
+  <section id="home">
+      <div class="left">
+          <h1>Obtenez <span>Votre site</span>&<span> Design</span> Avec Nous</h1>
+          <p>Votre site web mérite l'expertise d'une équipe dédiée. Obtenez un design sur mesure pour vous démarquer en ligne ! 🚀💻🎨 Confiez-nous votre réussite numérique.</p>
+          <a href="https://wa.me/message/TLM4D2U3TGX6K1">Demandé</a>
+      </div>
+      <div class="right">
+          <img src="images/pexels-pixabay-38544.jpg">
+      </div>
+  </section>
+
+  <section id="services">
+      <h1 class="section_title">Nos Design</h1>
+      <div class="images">
+          <ul>
+              <li class="car">
+                 <div>
+                     <img src="images/R.jpg" alt="">
+                 </div>
+              </li>
+              <li class="car">
+                  <div>
+                      <img src="images/2732314.webp" alt="">
+                  </div>
+               </li>
+               <li class="car">
+                  <div>
+                      <img src="images/photoshop-website-design-tutoria.jpg" alt="">
+                  </div>
+               </li>
+               <li class="car">
+                  <div>
+                      <img src="images/OIP (2).jpg" alt="">
+                  </div>
+               </li>
+               <li class="car">
+                  <div>
+                      <img src="images/6a00d8341c0b4453ef011570e5820a970c-800wi.jpg" alt="">
+                  </div>
+               </li>
+               <li class="car">
+                  <div>
+                      <img src="images/pexels-daniel-putzer-633409.jpg" alt="">
+                  </div>
+               </li>
+          </ul>
+      </div>
+  </section>
+
+  <!-- section services -->
+
+  <section id="services2">
+      <h1 class="section_title">Nos Services</h1>
+      <div class="list_services">
+          <div class="service">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Design Web</h3>
+              <p>Nous mettons a votre disposition des designs web quelque soit ce que vous voulez et comment vous voulez </p>
+               <a href="#" class="read_more">Lire Plus</a>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Administrateur DB</h3>
+              <p>Pour tout problème de base de donnée, création,modifcation et autres.</p>
+               <a href="#" class="read_more">Lire Plus</a>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Installation & Mainteantce</h3>
+              <p>Installation de systeme d'exploitation et maintenance  sur les PC</p>
+               <a href="#" class="read_more">Lire Plus</a>
+          </div>
+      </div>
+  </section>
+  
+
+  <!-- section contact -->
+
+  <section id="contact">
+      <h1 class="section_title">Contacts</h1>
+      <div class="localisation_contact_div">
+          <div class="localisation">
+              <h3>Notre Adresse</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3052.491950738572!2d1.2865597735650474!3d6.172238327148526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x1023e578310d1647%3A0xff0a468c13958c49!2zWEFWSU5PLCBMb23DqQ!3m2!1d6.1722247!2d1.2891335!5e1!3m2!1sfr!2stg!4v1690704259312!5m2!1sfr!2stg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="form_contact">
+              <h3>Envoyer un message</h3>
+              <form action="#">
+                  <input type="text"placeholder="Nom">
+                  <input type="email"placeholder="Adresse Mail">
+                  <input type="text"placeholder="Objet">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  <input  type="submit" value="Envoyer">
+              </form>
+          </div>
+      </div>
+  </section>
+
+
+  <footer>
+      <p>Copyright@<span>Herve-Milliano</span>@2023 </p>
+  </footer>
+
+  <script>
+      var menu_toggle = document.querySelector('.menu_toggle');
+      var menu = document.querySelector('.menu');
+      var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+      menu_toggle.onclick = function(){
+          menu_toggle.classList.toggle('active');
+          menu_toggle_span.classList.toggle('active');
+          menu.classList.toggle('responsive') ;
+      }
+
+  </script>
+</body>
+</html>
