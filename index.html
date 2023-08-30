@@ -8,142 +8,277 @@
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../localjs/jquery.min.js"></script>
+  <script src="../localbootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../localbootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../localfont-awesome/font-awesome.min.css">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-  <header>
-      <div class="menu_toggle">
-          <span></span>
-      </div>
+  <div class="container">
+      <header>
+        <div class="logo">
+            <p><span>MILLIANO</span>.INC</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#services">Services & Design</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+  </div>
+  <div class="container-fluid">
+    
+    <div class="row1">
+      <h1 class="titre">La technologie  nous eleve vers l'Excellence</h1>
+      <p>
+        À l'ère de l'innovation technologique, chaque jour apporte son lot d'avancées révolutionnaires qui <br>
+        redéfinissent la manière dont nous interagissons
+        avec notre environnement, créant ainsi un avenir empli de possibilités extraordinaires. <br>
+        La constante évolution technologique ouvre la voie à des innovations qui transforment notre façon <br>
+        de vivre, de travailler et de découvrir le monde qui nous entoure.
+      </p>
+    </div>
 
-      <div class="logo">
-          <p><span>MILLIANO</span>.INC</p>
-      </div>
-      <ul class="menu">
-          <li><a href="#home">Acceuil</a></li>
-          <li><a href="#services">Services & Design</a></li>
-          <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="login_btn">LOGIN</button>
-  </header>
-  <!-- section Acceuil -->
-   
-  <section id="home">
-      <div class="left">
-          <h1>Obtenez <span>Votre site</span>&<span> Design</span> Avec Nous</h1>
-          <p>Votre site web mérite l'expertise d'une équipe dédiée. Obtenez un design sur mesure pour vous démarquer en ligne ! 🚀💻🎨 Confiez-nous votre réussite numérique.</p>
-          <a href="https://wa.me/message/TLM4D2U3TGX6K1">Demandé</a>
-      </div>
-      <div class="right">
-          <img src="images/pexels-pixabay-38544.jpg">
-      </div>
-  </section>
+    <div class="row2" id="services">
+      <h3 style="text-align:center;justify-content: center;margin-left:5rem;font-size:3rem;">Nous opérons dans plusieurs domaines</h3>
+    </div>
+      
+    <div class="container" id="nos offre" style="Background-image:url(images/pexels-pixabay-268533.jpg);margin-top:5rem;height:80rem;">
+      <div class="row pt-5">
 
-  <section id="services">
-      <h1 class="section_title">Nos Design</h1>
-      <div class="images">
-          <ul>
-              <li class="car">
-                 <div>
-                     <img src="images/R.jpg" alt="">
-                 </div>
-              </li>
-              <li class="car">
-                  <div>
-                      <img src="images/2732314.webp" alt="">
-                  </div>
-               </li>
-               <li class="car">
-                  <div>
-                      <img src="images/photoshop-website-design-tutoria.jpg" alt="">
-                  </div>
-               </li>
-               <li class="car">
-                  <div>
-                      <img src="images/OIP (2).jpg" alt="">
-                  </div>
-               </li>
-               <li class="car">
-                  <div>
-                      <img src="images/6a00d8341c0b4453ef011570e5820a970c-800wi.jpg" alt="">
-                  </div>
-               </li>
-               <li class="car">
-                  <div>
-                      <img src="images/pexels-daniel-putzer-633409.jpg" alt="">
-                  </div>
-               </li>
-          </ul>
-      </div>
-  </section>
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="fa fa-code text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;">Developement Web & Application</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Création d'applications de bureau multiplateformes</li>
+                <li>Développement d'interfaces utilisateur ergonomiques</li>
+                <li>Intégration de fonctionnalités avancées</li>
+                <li>Optimisation des performances de l'application</li>
+                <li>Tests approfondis et débogage</li>
+              </ul>
+            </div>
 
-  <!-- section services -->
-
-  <section id="services2">
-      <h1 class="section_title">Nos Services</h1>
-      <div class="list_services">
-          <div class="service">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <h3>Design Web</h3>
-              <p>Nous mettons a votre disposition des designs web quelque soit ce que vous voulez et comment vous voulez </p>
-               <a href="#" class="read_more">Lire Plus</a>
+            <div class="ml-3">
+              <a href="docs/DEVELOPPEMENT WEB ET APPLICATION.pdf" class="btn btn-outline-info">Voir le fichier PDF</a>
+            </div>
           </div>
-          <div class="service">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <h3>Administrateur DB</h3>
-              <p>Pour tout problème de base de donnée, création,modifcation et autres.</p>
-               <a href="#" class="read_more">Lire Plus</a>
+        </div>
+
+
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="fa fa-laptop text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;margin-left:-3rem;">Maintenance et Réparation</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Installation et configuration de systèmes d'exploitation</li>
+                <li>Réparation des problèmes matériels et logiciels</li>
+                <li>Mise à jour et gestion des systèmes</li>
+                <li>Support technique et dépannage</li>
+                <li>Sécurisation et optimisation des systèmes</li>
+              </ul>
+            </div>
+
+            <div class="ml-3">
+              <a href="docs/MAINTENANCE ET INSTALLATION DES ORDINATEURS.pdf" class="btn btn-outline-info">Voir le fichier PDF</a>
+            </div>
           </div>
-          <div class="service">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <h3>Installation & Mainteantce</h3>
-              <p>Installation de systeme d'exploitation et maintenance  sur les PC</p>
-               <a href="#" class="read_more">Lire Plus</a>
+        </div>
+            
+
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="	fa fa-envelope text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;margin-left:-3rem;">Système de Messagerie Entreprise</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Configuration d'adresses email professionnelles</li>
+                <li>Personnalisation des signatures d'email</li>
+                <li>Intégration de la messagerie sur les appareils</li>
+                <li>Paramétrage de la synchronisation des emails</li>
+                <li>Assistance technique</li>
+              </ul>
+            </div>
+            <div class="ml-3">
+                <a href="docs/SYSTEMES DE MESSAGERIE.pdf" class="btn btn-outline-info">Voir le fichier PDF</a>
+            </div>
           </div>
+        </div>
       </div>
-  </section>
+
+      <div class="row pt-5">
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="	fa fa-photo text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;">Graphisme</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Création d'identités visuelles uniques</li>
+                <li>Conception de logos et d'éléments graphiques</li>
+                <li>Réalisation d'illustrations personnalisées</li>
+                <li>Design d'emballages et d'imprimés</li>
+                <li>Retouche et manipulation d'images</li>
+              </ul>
+            </div>
+            <div class="ml-3">
+              <a href="docs/GRAPHISME ET DESIGN WEB.pdf" class="btn btn-outline-info">Voir la fichier PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="fa fa-pencil-square-o text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;margin-left:-2rem;">Design Web</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Création d'interfaces utilisateur attrayantes</li>
+                <li>Design de sites web responsive</li>
+                <li>Optimisation de l'expérience utilisateur</li>
+                <li>Création de maquettes et de prototypes</li>
+                <li>Collaboration avec les développeurs</li>
+              </ul>
+            </div>
+            <div class="ml-3">
+              <a href="docs/GRAPHISME ET DESIGN WEB.pdf" class="btn btn-outline-info">Voir la fiche PDF</a>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-md-4 mt-3 blue-column">
+          <div class="card ml-2 pt-3">
+            <i class="fa fa-database text-center"Style="font-size:5rem;"></i>
+            <div class="ml-5 mt-1">
+              <h5 style="font-size:3rem;text-align:center;margin-left:-2rem;">Administration en Base de Donnée (BD)</h5>
+              <h4 class="red-text">Les Services</h4>
+              <ul>
+                <li>Conception de schémas des BD</li>
+                <li>Création de tables et de relations</li>
+                <li>Optimisation des performances</li>
+                <li>Normalisation des données</li>
+              </ul>
+            </div>
+            <div class="ml-3">
+              <a href="docs/Administrateur en base de données.pdf" class="btn btn-outline-info">Voir la fiche PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    
+    <div class="row ml-5">
+      <div class="col-md-6 pt-5">
+        <img class="rounded conner" src="images/pexels-pixabay-38544.jpg" alt="esig" height="500" width="800">
+      </div>
+    
+      <div class="col-md-6" style="padding-top:15rem;margin-left:-18rem;">
+        <h1 class="text-center" style="margin-left:20rem;font-size:5rem;">Obtenez <span>Votre site</span>&<span> Design</span> Avec Nous</h1>
+        <p style="margin-left:20rem;text-align:center;">
+          Votre site web mérite l'expertise d'une équipe dédiée. <br> Obtenez un design 
+          sur mesure pour vous démarquer en ligne ! <br>🚀💻🎨<br> Confiez-nous votre réussite numérique.
+        </p>
+        <a style="margin-left:42rem;" href="https://wa.me/message/TLM4D2U3TGX6K1"><button type="button" class="btn btn-primary" style="font-size:2rem;">Contacter-Nous</button>
+        </a>
+      </div>
+    </div>
+      <!--carrousel-->
+    <div class="row " style="margin-top:rem;" id="contact">
+      <div class="col-md-12 pt-5 text-center">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pexels-kevin-ku-577585.jpg" alt="Los Angeles" width="900" height="500">
+              <div class="carousel-caption">
+                <h3>Technologie à jour!</h3>
+                <p>Toujours constamment mis à jour!</p>
+              </div>   
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/pexels-fauxels-3183197.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Équipe Personnelle</h3>
+                <p>Une équipe prête à répondre à tous vos besoins.</p>
+              </div>   
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/pexels-pixabay-356056.jpg" alt="New York" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Principes Technologiques</h3>
+                <p>Appliquant les principes de la technologie.</p>
+              </div>   
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/Herve design mod.png" alt="New York" width="1100" height="500">   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>       
+      <!-- <div class="row" style="margin-top:5rem;">
+        <div class="col-md-4 text-left">
+          <div class="card">
+            <address>
+              <h3 class="ml-5 pt-5">Liens utiles</h3>
+              <i class="fa fa-angle-right fa-fw"></i>
+              <a href="fichier/car-easybuy-cgu.pdf" target="blank" style="color:blue;font-size:2rem;"><b>condition d'utilisateur</b></a> <br>
+              <i class="fa fa-angle-right fa-fw"></i>
+              <a href="fichier/car-easybuy-howto.pdf" target="blank" style="color:blue;font-size:2rem;"><b>comment acheter</b></a><br>
+              <i class="fa fa-angle-right fa-fw"></i>
+              <a href="nos offre" target="blank" style="color:blue;font-size:2rem;"><b>Nos offres</b></a>              
+            </address>
+          </div>
+        </div>
+          
+        <div class="col-md-4">
+          <div class="card">
+            <div class="infos mt-4">
+              <h3>CAR ESAY BUY</h3>
+            <h5 style="font-size:2rem;"><i style="color:blue;" class="fa fa-map-marker"></i> 1357 Boulevard du Mono - Nationale N°2 </h5>
+            <h5 style="font-size:2rem;">Lomé - TOGO</h5>
+            <h5 style="font-size:2rem;"><a href=""><i style="color:blue;" class="fa fa-phone"></i></a>(+228) 96 47 30 58</h5>
+            <h5 style="font-size:2rem;"><a href=""><i style="color:blue;" class="fa fa-whatsapp"></i></a> (+228) 91 45 83 35</h5>
+            <h5 style="font-size:2rem;"><a href=""><i style="color:blue;" class="fa fa-envelope-o fa-fw"></i></a>hervekpeli3@gmail.com</h5>
+            <h5 style="font-size:2rem;"><a href=""><i style="color:blue" class="fa fa-facebook"></i></a>Facebook</h5>
+            <h5 style="font-size:2rem;"><i style="color:blue" class="fa fa-instagram"></i>instagram</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Herve design mod.png" alt="">
+          </div>
+        </div>
+      </div> -->
+      <p style="text-align: center;background-color:rgb(0, 0, 0);color:wheat;">Copyright@<span>Herve-Milliano</span>@2023 </p>
+    </footer> 
+    
+    <script>
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
   
-
-  <!-- section contact -->
-
-  <section id="contact">
-      <h1 class="section_title">Contacts</h1>
-      <div class="localisation_contact_div">
-          <div class="localisation">
-              <h3>Notre Adresse</h3>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3052.491950738572!2d1.2865597735650474!3d6.172238327148526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x1023e578310d1647%3A0xff0a468c13958c49!2zWEFWSU5PLCBMb23DqQ!3m2!1d6.1722247!2d1.2891335!5e1!3m2!1sfr!2stg!4v1690704259312!5m2!1sfr!2stg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-          <div class="form_contact">
-              <h3>Envoyer un message</h3>
-              <form action="#">
-                  <input type="text"placeholder="Nom">
-                  <input type="email"placeholder="Adresse Mail">
-                  <input type="text"placeholder="Objet">
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                  <input  type="submit" value="Envoyer">
-              </form>
-          </div>
-      </div>
-  </section>
-
-
-  <footer>
-      <p>Copyright@<span>Herve-Milliano</span>@2023 </p>
-  </footer>
-
-  <script>
-      var menu_toggle = document.querySelector('.menu_toggle');
-      var menu = document.querySelector('.menu');
-      var menu_toggle_span = document.querySelector('.menu_toggle span');
-
-      menu_toggle.onclick = function(){
-          menu_toggle.classList.toggle('active');
-          menu_toggle_span.classList.toggle('active');
-          menu.classList.toggle('responsive') ;
-      }
-
-  </script>
+        menu_toggle.onclick = function(){
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive') ;
+        }
+  
+    </script> 
+  </div>
 </body>
 </html>
